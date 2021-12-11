@@ -1,0 +1,15 @@
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.csproj.AssemblyReference.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.AssemblyInfoInputs.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.AssemblyInfo.cs
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.csproj.CoreCompileInputs.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\bin\Debug\net5.0\OnlineShopProject.Domain.deps.json
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\bin\Debug\net5.0\OnlineShopProject.Domain.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\bin\Debug\net5.0\ref\OnlineShopProject.Domain.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\bin\Debug\net5.0\OnlineShopProject.Domain.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\bin\Debug\net5.0\OnlineShopProject.Domain.Contract.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\bin\Debug\net5.0\OnlineShopProject.Domain.Contract.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.csproj.CopyComplete
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\ref\OnlineShopProject.Domain.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain\obj\Debug\net5.0\OnlineShopProject.Domain.pdb
