@@ -1,0 +1,12 @@
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\bin\Debug\net5.0\OnlineShopProject.Application.Contract.deps.json
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\bin\Debug\net5.0\OnlineShopProject.Application.Contract.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\bin\Debug\net5.0\ref\OnlineShopProject.Application.Contract.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\bin\Debug\net5.0\OnlineShopProject.Application.Contract.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.csproj.AssemblyReference.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.AssemblyInfoInputs.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.AssemblyInfo.cs
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.csproj.CoreCompileInputs.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\ref\OnlineShopProject.Application.Contract.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Application.Contract\obj\Debug\net5.0\OnlineShopProject.Application.Contract.pdb

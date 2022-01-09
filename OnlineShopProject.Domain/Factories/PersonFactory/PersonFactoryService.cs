@@ -8,10 +8,10 @@ using TanvirArjel.Extensions.Microsoft.DependencyInjection;
 namespace OnlineShopProject.Domain.Factories.PersonFactory
 {
     [ScopedService]
-    public class PersonFactory
+    public class PersonFactoryService
     {
         #region [ - Ctor - ]
-        public PersonFactory(Reporities.IPersonRepository personRepository)
+        public PersonFactoryService(Reporities.IPersonRepository personRepository)
         {
             PersonRepository = personRepository;
         }
@@ -27,7 +27,7 @@ namespace OnlineShopProject.Domain.Factories.PersonFactory
         public async Task<Aggregates.PersonAggregate.Person> CreateAsync(string firstName, string lastName)
         {
             var requestedPerson = await PersonRepository.GetPersonByNameAsync(firstName, lastName);
-            if (requestedPerson != null)
+            if (requestedPerson == null)
             {
                 return new Aggregates.PersonAggregate.Person(firstName, lastName);
             }

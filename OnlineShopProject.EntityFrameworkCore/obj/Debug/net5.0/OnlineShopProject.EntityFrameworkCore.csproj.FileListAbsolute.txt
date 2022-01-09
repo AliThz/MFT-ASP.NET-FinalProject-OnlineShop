@@ -1,0 +1,17 @@
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.deps.json
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\ref\OnlineShopProject.EntityFrameworkCore.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.Domain.Contract.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.Domain.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.Domain.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net5.0\OnlineShopProject.Domain.Contract.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.csproj.AssemblyReference.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.AssemblyInfo.cs
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.csproj.CopyComplete
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\ref\OnlineShopProject.EntityFrameworkCore.dll
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net5.0\OnlineShopProject.EntityFrameworkCore.pdb

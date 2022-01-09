@@ -8,6 +8,6 @@ namespace OnlineShopProject.Domain.Frameworks.Abstracts
 {
     public interface IEntity<TKey>
     {
-        TKey Id { get; set; }
+        public TKey Id { get; set; }
     }
 }
