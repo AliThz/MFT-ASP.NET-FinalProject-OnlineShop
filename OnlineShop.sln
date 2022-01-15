@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopProject.Applicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopProject.Application", "OnlineShopProject.Application\OnlineShopProject.Application.csproj", "{C606D626-F5D0-4D03-BD10-D33720F97ABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopProject.WebApi", "OnlineShopProject.WebApi\OnlineShopProject.WebApi.csproj", "{28CA3072-CF0F-4AE1-8F7B-F57FCB4D3C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopProject.WebApi", "OnlineShopProject.WebApi\OnlineShopProject.WebApi.csproj", "{28CA3072-CF0F-4AE1-8F7B-F57FCB4D3C27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

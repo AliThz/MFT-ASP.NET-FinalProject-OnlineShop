@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TanvirArjel.Extensions.Microsoft.DependencyInjection;
 
 namespace OnlineShopProject.WebApi
 {
@@ -91,6 +92,9 @@ namespace OnlineShopProject.WebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OnlineShopProject.WebApi", Version = "v1" });
             });
+
+            services.AddServicesOfAllTypes();
+            services.AddServicesWithAttributeOfType<ScopedServiceAttribute>();
         }
         #endregion
 
@@ -105,7 +109,6 @@ namespace OnlineShopProject.WebApi
                 app.UseDeveloperExceptionPage();
 
                 //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OnlineShopProject.WebApi v1"));
-
                 //app.UseSwagger();
             }
 

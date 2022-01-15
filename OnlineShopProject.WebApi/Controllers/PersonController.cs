@@ -22,6 +22,8 @@ namespace OnlineShopProject.WebApi.Controllers
         public Application.Abstracts.IPersonApplicationService PersonApplicationService { get; set; }
         #endregion
 
+        #region [ - Actions - ]
+
         #region [ - GetPersonAsync(Guid id) - ]
         [Route("wapi/v1/1")]
         [HttpGet]
@@ -65,6 +67,8 @@ namespace OnlineShopProject.WebApi.Controllers
         {
             await PersonApplicationService.DeleteAsync(id);
         }
+        #endregion 
+
         #endregion
     }
 }

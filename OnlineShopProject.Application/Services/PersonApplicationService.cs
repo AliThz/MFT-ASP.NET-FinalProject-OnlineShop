@@ -56,7 +56,7 @@ namespace OnlineShopProject.Application.Services
         }
         #endregion
 
-        #region [ - Task<PersonDTO> GetAsync(Guid id) - ]
+        #region [ - GetAsync(Guid id) - ]
         public async Task<PersonDTO> GetAsync(Guid id)
         {
             var person = await PersonRepository.FindByIdAsync(id);
