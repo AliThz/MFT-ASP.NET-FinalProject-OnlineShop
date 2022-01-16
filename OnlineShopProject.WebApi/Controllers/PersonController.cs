@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OnlineShopProject.WebApi.Controllers
 {
-    //[Route("api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class PersonController : ControllerBase
     {

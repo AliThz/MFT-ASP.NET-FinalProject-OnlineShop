@@ -15,6 +15,10 @@ namespace OnlineShopProject.Application.Profiles
             #region [ - PersonFlow - ]
             CreateMap<Domain.Aggregates.PersonAggregate.Person, DTOs.PersonDTOs.PersonDTO>().ReverseMap();
             #endregion
+
+            #region [ - ProductFlow - ]
+            CreateMap<Domain.Aggregates.ProductAggregate.Product, DTOs.ProductDTOs.ProductDTO>().ReverseMap();
+            #endregion
         }
         #endregion
     }

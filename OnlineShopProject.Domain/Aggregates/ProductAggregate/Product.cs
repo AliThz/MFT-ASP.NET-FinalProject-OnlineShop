@@ -20,7 +20,6 @@ namespace OnlineShopProject.Domain.Aggregates.ProductAggregate
         public string Title { get; set; }
         public decimal UnitPrice { get; set; }
         public decimal Quantity { get; set; }
-        public decimal Price { get { return UnitPrice * Quantity; } }
 
         //public List<OrderAggregate.OrderDetail> OrderDetails { get; set; }
     }

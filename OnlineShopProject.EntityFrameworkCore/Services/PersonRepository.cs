@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OnlineShopProject.Domain.Aggregates.PersonAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +21,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
         #region [ - Method - ]
 
         #region [ - GetPersonByNameAsync(string firstName, string lastName) - ]
-        public async Task<Person> GetPersonByNameAsync(string firstName, string lastName)
+        public async Task<Domain.Aggregates.PersonAggregate.Person> GetPersonByNameAsync(string firstName, string lastName)
         {
             return await DbSet.FirstOrDefaultAsync(p => p.FirstName == firstName & p.LastName == lastName);
         }

@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="Factories\OrderFactory\" />
-    <Folder Include="Factories\ProductFactory\" />
   </ItemGroup>
 
 </Project>

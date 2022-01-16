@@ -44,6 +44,7 @@ namespace OnlineShopProject.Application.Services
             {
                 person.FirstName = input.FirstName;
                 person.LastName = input.LastName;
+
                 await PersonRepository.UpdateAsync(person);
             }
         } 
