@@ -10,8 +10,8 @@ using OnlineShopProject.EntityFrameworkCore;
 namespace OnlineShopProject.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(OnlineShopProjectDbContext))]
-    [Migration("20220115063938_Product Added")]
-    partial class ProductAdded
+    [Migration("20220116144605_Initial Migration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
