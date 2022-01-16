@@ -17,6 +17,8 @@ namespace OnlineShopProject.Domain.Aggregates.PersonAggregate
         #endregion
 
         public string FirstName { get; set; }
-        public string LastName { get; set; } 
+        public string LastName { get; set; }
+
+        //public List<OrderAggregate.OrderHeader> Orders { get; set; }
     }
 }
