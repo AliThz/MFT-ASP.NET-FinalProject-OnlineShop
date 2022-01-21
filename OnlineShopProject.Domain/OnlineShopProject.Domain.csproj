@@ -12,8 +12,4 @@
     <PackageReference Include="TanvirArjel.Extensions.Microsoft.DependencyInjection" Version="2.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Factories\OrderFactory\" />
-  </ItemGroup>
-
 </Project>

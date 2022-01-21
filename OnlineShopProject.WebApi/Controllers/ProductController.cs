@@ -22,7 +22,7 @@ namespace OnlineShopProject.WebApi.Controllers
         public Application.Abstracts.IProductApplicationService ProductApplicationService { get; set; }
         #endregion
 
-        #region [ - Actions - ]
+        #region [ - APIs - ]
 
         #region [ - GetProductAsync(Guid id) - ]
         [Route("wapi/v2/1")]

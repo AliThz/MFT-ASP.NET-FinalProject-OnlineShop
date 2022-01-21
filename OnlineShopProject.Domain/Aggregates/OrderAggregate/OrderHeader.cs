@@ -8,6 +8,15 @@ namespace OnlineShopProject.Domain.Aggregates.OrderAggregate
 {
     public class OrderHeader : Frameworks.Base.Entity
     {
+        #region [ - Ctor - ]
+        public OrderHeader(Aggregates.PersonAggregate.Person seller, Aggregates.PersonAggregate.Person buyer, List<Aggregates.OrderAggregate.OrderDetail> orderDetails)
+        {
+            Seller = seller;
+            Buyer = buyer;
+            OrderDetails = orderDetails;
+        }
+        #endregion
+
         public PersonAggregate.Person Seller { get; set; }
         public PersonAggregate.Person Buyer { get; set; }
 
