@@ -23,6 +23,8 @@ namespace OnlineShopProject.EntityFrameworkCore
         #region [ - DbSets - ]
         public DbSet<Domain.Aggregates.PersonAggregate.Person> Person { get; set; }
         public DbSet<Domain.Aggregates.ProductAggregate.Product> Product { get; set; }
+        public DbSet<Domain.Aggregates.OrderAggregate.OrderHeader> OrderHeader { get; set; }
+        public DbSet<Domain.Aggregates.OrderAggregate.OrderDetail> OrderDetail { get; set; }
         #endregion
 
         #region [ - OnModelCreating(ModelBuilder modelBuilder) - ]

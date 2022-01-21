@@ -10,7 +10,7 @@ using OnlineShopProject.EntityFrameworkCore;
 namespace OnlineShopProject.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(OnlineShopProjectDbContext))]
-    [Migration("20220116144605_Initial Migration")]
+    [Migration("20220119035434_Initial Migration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -217,6 +217,45 @@ namespace OnlineShopProject.EntityFrameworkCore.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.OrderAggregate.OrderDetail", b =>
+                {
+                    b.Property<Guid>("OrderHeaderId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal>("Quantity")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("OrderHeaderId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderDetail");
+                });
+
+            modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.OrderAggregate.OrderHeader", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("BuyerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("SellerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BuyerId");
+
+                    b.HasIndex("SellerId");
+
+                    b.ToTable("OrderHeader");
+                });
+
             modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.PersonAggregate.Person", b =>
                 {
                     b.Property<Guid>("Id")
@@ -309,6 +348,50 @@ namespace OnlineShopProject.EntityFrameworkCore.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.OrderAggregate.OrderDetail", b =>
+                {
+                    b.HasOne("OnlineShopProject.Domain.Aggregates.OrderAggregate.OrderHeader", "OrderHeader")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderHeaderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OnlineShopProject.Domain.Aggregates.ProductAggregate.Product", "Product")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("OrderHeader");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.OrderAggregate.OrderHeader", b =>
+                {
+                    b.HasOne("OnlineShopProject.Domain.Aggregates.PersonAggregate.Person", "Buyer")
+                        .WithMany()
+                        .HasForeignKey("BuyerId");
+
+                    b.HasOne("OnlineShopProject.Domain.Aggregates.PersonAggregate.Person", "Seller")
+                        .WithMany()
+                        .HasForeignKey("SellerId");
+
+                    b.Navigation("Buyer");
+
+                    b.Navigation("Seller");
+                });
+
+            modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.OrderAggregate.OrderHeader", b =>
+                {
+                    b.Navigation("OrderDetails");
+                });
+
+            modelBuilder.Entity("OnlineShopProject.Domain.Aggregates.ProductAggregate.Product", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }
