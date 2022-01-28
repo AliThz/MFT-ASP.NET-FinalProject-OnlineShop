@@ -15,6 +15,11 @@ namespace OnlineShopProject.Domain.Aggregates.OrderAggregate
             Buyer = buyer;
             OrderDetails = orderDetails;
         }
+
+        public OrderHeader()
+        {
+
+        }
         #endregion
 
         public PersonAggregate.Person Seller { get; set; }

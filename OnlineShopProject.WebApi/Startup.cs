@@ -96,16 +96,16 @@ namespace OnlineShopProject.WebApi
             services.AddServicesOfAllTypes();
             services.AddServicesWithAttributeOfType<ScopedServiceAttribute>();
 
-            services.AddCors(options =>
-            {
-                options.AddPolicy("EnablesCors", builder =>
-                {
-                    builder.WithOrigins("http://localhost:8080")
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .Build();
-                });
-            });
+            //services.AddCors(options =>
+            //{
+            //    options.AddPolicy("EnablesCors", builder =>
+            //    {
+            //        builder.WithOrigins("http://localhost:8080")
+            //        .AllowAnyHeader()
+            //        .AllowAnyMethod()
+            //        .Build();
+            //    });
+            //});
         }
         #endregion
 
@@ -134,7 +134,7 @@ namespace OnlineShopProject.WebApi
                 endpoints.MapControllers();
             });
 
-            app.UseCors("EnablesCors");
+            //app.UseCors("EnablesCors");
         } 
         #endregion
     }
