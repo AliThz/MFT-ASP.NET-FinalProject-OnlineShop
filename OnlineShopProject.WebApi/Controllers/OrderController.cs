@@ -12,9 +12,9 @@ namespace OnlineShopProject.WebApi.Controllers
     public class OrderController : ControllerBase
     {
         #region [ - Ctor - ]
-        public OrderController()
+        public OrderController(Application.Abstracts.IOrderHeaderApplicationService orderApplicationService)
         {
-
+            OrderApplicationService = orderApplicationService;
         }
         #endregion
 
@@ -47,6 +47,7 @@ namespace OnlineShopProject.WebApi.Controllers
         [HttpPost]
         public async Task<Application.DTOs.OrderHeaderDTOs.OrderHeaderDTO> CreateOrderAsync(Application.DTOs.OrderHeaderDTOs.CreateOrderHeaderDTO input)
         {
+
             return await OrderApplicationService.CreateAsync(input);
         }
         #endregion

@@ -24,9 +24,9 @@ namespace OnlineShopProject.Domain.Factories.OrderFactory
         #region [ - Method - ]
 
         #region [ - CreateAsync(Aggregates.PersonAggregate.Person seller, Aggregates.PersonAggregate.Person buyer, List<Aggregates.OrderAggregate.OrderDetail> orderDetails) - ]
-        public Task<Aggregates.OrderAggregate.OrderHeader> CreateAsync(Aggregates.PersonAggregate.Person seller, Aggregates.PersonAggregate.Person buyer, List<Aggregates.OrderAggregate.OrderDetail> orderDetails)
+        public Task<Aggregates.OrderAggregate.OrderHeader> CreateAsync(Aggregates.PersonAggregate.Person seller, Aggregates.PersonAggregate.Person buyer)
         {
-            return Task.FromResult(new Aggregates.OrderAggregate.OrderHeader(seller, buyer, orderDetails));
+            return Task.FromResult(new Aggregates.OrderAggregate.OrderHeader(seller, buyer));
         }
         #endregion
 

@@ -40,9 +40,24 @@ namespace OnlineShopProject.Application.Services
         #region [ - CreateAsync(CreateOrderHeaderDTO input) - ]
         public async Task<OrderHeaderDTO> CreateAsync(CreateOrderHeaderDTO input)
         {
-            var order = await OrderFactory.CreateAsync(Mapper.Map<PersonDTO, Domain.Aggregates.PersonAggregate.Person>(input.Seller),
-                                                       Mapper.Map<PersonDTO, Domain.Aggregates.PersonAggregate.Person>(input.Buyer),
-                                                       Mapper.Map<List<OrderDetailDTO>, List<Domain.Aggregates.OrderAggregate.OrderDetail>>(input.OrderDetails));
+
+            //var orderDetails = new List<DTOs.OrderDetailDTOs.OrderDetailDTO>();
+            //foreach (var item in input.OrderDetails)
+            //{
+            //    var orderDetail = new DTOs.OrderDetailDTOs.OrderDetailDTO();
+            //    orderDetail.ProductId = item.ProductId;
+            //}
+
+            var order = await OrderFactory.CreateAsync(await PersonRepository.FindByIdAsync(input.SellerId),
+                                                       await PersonRepository.FindByIdAsync(input.buyerId));
+
+            //var order = await OrderFactory.CreateAsync(await PersonRepository.FindByIdAsync(input.SellerId),
+            //                                           await PersonRepository.FindByIdAsync(input.buyerId),
+            //                                           Mapper.Map<List<OrderDetailDTO>, List<Domain.Aggregates.OrderAggregate.OrderDetail>>(input.OrderDetails));
+
+            //var order = await OrderFactory.CreateAsync(Mapper.Map<PersonDTO, Domain.Aggregates.PersonAggregate.Person>(input.Seller),
+            //                                           Mapper.Map<PersonDTO, Domain.Aggregates.PersonAggregate.Person>(input.Buyer),
+            //                                           Mapper.Map<List<OrderDetailDTO>, List<Domain.Aggregates.OrderAggregate.OrderDetail>>(input.OrderDetails));
             await OrderRepository.InsertAsync(order);
             return Mapper.Map<Domain.Aggregates.OrderAggregate.OrderHeader, OrderHeaderDTO>(order);
         }

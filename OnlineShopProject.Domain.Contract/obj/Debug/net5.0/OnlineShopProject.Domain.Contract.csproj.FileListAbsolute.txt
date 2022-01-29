@@ -9,3 +9,4 @@ E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProjec
 E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain.Contract\obj\Debug\net5.0\OnlineShopProject.Domain.Contract.dll
 E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain.Contract\obj\Debug\net5.0\ref\OnlineShopProject.Domain.Contract.dll
 E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain.Contract\obj\Debug\net5.0\OnlineShopProject.Domain.Contract.pdb
+E:\Ali\Programming\ASP.net\MFT\Projects\FinalProject\OnlineShop\OnlineShopProject.Domain.Contract\obj\Debug\net5.0\OnlineShopProject.Domain.Contract.csproj.AssemblyReference.cache

@@ -9,11 +9,10 @@ namespace OnlineShopProject.Domain.Aggregates.OrderAggregate
     public class OrderHeader : Frameworks.Base.Entity
     {
         #region [ - Ctor - ]
-        public OrderHeader(Aggregates.PersonAggregate.Person seller, Aggregates.PersonAggregate.Person buyer, List<Aggregates.OrderAggregate.OrderDetail> orderDetails)
+        public OrderHeader(Aggregates.PersonAggregate.Person seller, Aggregates.PersonAggregate.Person buyer)
         {
             Seller = seller;
             Buyer = buyer;
-            OrderDetails = orderDetails;
         }
 
         public OrderHeader()
