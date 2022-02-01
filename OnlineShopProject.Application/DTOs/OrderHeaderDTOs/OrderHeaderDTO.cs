@@ -12,7 +12,6 @@ namespace OnlineShopProject.Application.DTOs.OrderHeaderDTOs
         [JsonIgnore]
         public Guid SellerId { get; set; }
         [JsonIgnore]
-
         public Guid buyerId { get; set; }
 
         public PersonDTOs.PersonDTO Seller { get; set; }

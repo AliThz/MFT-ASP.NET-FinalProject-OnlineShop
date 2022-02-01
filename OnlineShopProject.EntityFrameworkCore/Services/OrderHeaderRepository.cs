@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineShopProject.Domain.Aggregates.OrderAggregate;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +17,45 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
         {
         }
         #endregion
+
+        #region [ - Methods - ]
+
+        #region [ - Select() - ]
+        public override async Task<List<OrderHeader>> Select()
+        {
+            var orders = DbContext.OrderHeader
+                .Include(oh => oh.Seller)
+                .Include(oh => oh.Buyer)
+                .Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeader)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeaderId)
+                .Include(oh => oh.OrderDetails).ThenInclude(od => od.Product)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.ProductId)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.Quantity)
+                //.AsNoTracking()
+                .ToListAsync();
+
+            return await orders;
+        }
+        #endregion
+
+        #region [ - FindByIdAsync(Guid id) - ]
+        public override async Task<OrderHeader> FindByIdAsync(Guid id)
+        {
+            var order = await DbContext.OrderHeader
+                .Include(oh => oh.Seller)
+                .Include(oh => oh.Buyer)
+                .Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeader)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeaderId)
+                .Include(oh => oh.OrderDetails).ThenInclude(od => od.Product)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.ProductId)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.Quantity)
+                //.AsNoTracking()
+                .SingleOrDefaultAsync(oh => oh.Id == id);
+
+            return order;
+        }
+        #endregion
+
+        #endregion    
     }
 }

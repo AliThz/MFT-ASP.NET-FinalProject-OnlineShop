@@ -41,7 +41,7 @@ namespace OnlineShopProject.WebApi
             #region [ - AddDbContext() - ]
             services.AddDbContextPool<EntityFrameworkCore.OnlineShopProjectDbContext>(option =>
             {
-                option.UseSqlServer(Configuration.GetConnectionString("OrderFlowDebug01"));
+                option.UseSqlServer(Configuration.GetConnectionString("OrderFlowDebug02"));
 
             });
             #endregion

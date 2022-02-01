@@ -93,12 +93,10 @@ namespace OnlineShopProject.Application.Services
             var order = await OrderRepository.FindByIdAsync(id);
             if (order != null)
             {
-                order.Seller.FirstName = input.Seller.FirstName;
-                order.Seller.LastName = input.Seller.LastName;
-                order.Buyer.FirstName = input.Buyer.FirstName;
-                order.Buyer.LastName = input.Buyer.LastName;
-                order.OrderDetails.Clear();
-                input.OrderDetails.ForEach(od => order.OrderDetails.Add(Mapper.Map<Domain.Aggregates.OrderAggregate.OrderDetail>(od)));
+                order.Seller = await PersonRepository.FindByIdAsync(input.SellerId);
+                order.Buyer = await PersonRepository.FindByIdAsync(input.buyerId);
+                //order.OrderDetails.Clear();
+                //input.OrderDetails.ForEach(od => order.OrderDetails.Add(Mapper.Map<Domain.Aggregates.OrderAggregate.OrderDetail>(od)));
 
                 await OrderRepository.UpdateAsync(order);
             }
