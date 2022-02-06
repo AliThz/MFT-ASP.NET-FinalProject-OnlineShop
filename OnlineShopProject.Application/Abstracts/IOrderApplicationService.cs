@@ -8,9 +8,13 @@ using TanvirArjel.Extensions.Microsoft.DependencyInjection;
 namespace OnlineShopProject.Application.Abstracts
 {
     [ScopedService]
-    public interface IOrderHeaderApplicationService
+    public interface IOrderApplicationService
     {
+        //IOrderDetailApplicationService OrderDetailApplicationService { get; set; }
+
         Task<DTOs.OrderHeaderDTOs.OrderHeaderDTO> CreateAsync(DTOs.OrderHeaderDTOs.CreateOrderHeaderDTO input);
+
+        Task<List<DTOs.OrderDetailDTOs.OrderDetailDTO>> CreateOrderDetailsAsync(List<DTOs.OrderDetailDTOs.CreateOrderDetailDTO> input, Guid orderHeaderId);
 
         Task UpdateAsync(Guid id, DTOs.OrderHeaderDTOs.UpdateOrderHeaderDTO input);
 

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OnlineShopProject.Application.Abstracts;
 using OnlineShopProject.Application.DTOs.OrderDetailDTOs;
 using OnlineShopProject.Application.DTOs.OrderHeaderDTOs;
 using OnlineShopProject.Application.DTOs.PersonDTOs;
@@ -10,19 +11,23 @@ using System.Threading.Tasks;
 
 namespace OnlineShopProject.Application.Services
 {
-    public class OrderApplicationService : Abstracts.IOrderHeaderApplicationService
+    public class OrderApplicationService : Abstracts.IOrderApplicationService
     {
         #region [ - Ctor - ]
         public OrderApplicationService(Domain.Reporities.IOrderRepository orderRepository,
+                                       Domain.Reporities.IOrderDetailRepository orderDetailRepository,
                                        Domain.Factories.OrderFactory.OrderFactoryService orderFactory,
                                        Domain.Factories.OrderFactory.OrderDetailFactoryService orderDetailFactory,
+                                       IOrderDetailApplicationService orderDetailApplicationService,
                                        Domain.Reporities.IPersonRepository personRepository,
                                        IMapper mapper)
         {
             OrderRepository = orderRepository;
+            OrderDetailRepository = orderDetailRepository;
             OrderFactory = orderFactory;
-            OrderDetailFactory = orderDetailFactory;
             PersonRepository= personRepository;
+            OrderDetailFactory = orderDetailFactory;
+            OrderDetailApplicationService = orderDetailApplicationService;
             Mapper = mapper;
         }
         #endregion
@@ -31,8 +36,11 @@ namespace OnlineShopProject.Application.Services
         public Domain.Reporities.IOrderRepository OrderRepository { get; set; }
         public Domain.Factories.OrderFactory.OrderFactoryService OrderFactory { get; set; }
         public Domain.Factories.OrderFactory.OrderDetailFactoryService OrderDetailFactory { get; set; }
+        public Domain.Reporities.IOrderDetailRepository OrderDetailRepository { get; set; }
+        public IOrderDetailApplicationService OrderDetailApplicationService { get; set; }
         public Domain.Reporities.IPersonRepository PersonRepository { get; set; }
         public IMapper Mapper { get; set; }
+        //IOrderDetailApplicationService IOrderApplicationService.OrderDetailApplicationService { get; set; }
         #endregion
 
         #region [ - Methods - ]
@@ -40,7 +48,6 @@ namespace OnlineShopProject.Application.Services
         #region [ - CreateAsync(CreateOrderHeaderDTO input) - ]
         public async Task<OrderHeaderDTO> CreateAsync(CreateOrderHeaderDTO input)
         {
-
             //var orderDetails = new List<DTOs.OrderDetailDTOs.OrderDetailDTO>();
             //foreach (var item in input.OrderDetails)
             //{
@@ -63,9 +70,28 @@ namespace OnlineShopProject.Application.Services
         }
         #endregion
 
+        #region [ - CreateOrderDetailsAsync(CreateOrderDetailDTO input) - ]
+        public async Task<List<OrderDetailDTO>> CreateOrderDetailsAsync(List<DTOs.OrderDetailDTOs.CreateOrderDetailDTO> input, Guid orderheaderId)
+        {
+            var orderDetails = new List<OrderDetailDTO>();
+            foreach (var item in input)
+            {
+                item.OrderHeaderId = orderheaderId;
+                var orderDetail = await OrderDetailApplicationService.CreateAsync(item);
+                orderDetails.Add(orderDetail);
+            }
+            return orderDetails;
+        }
+
+        #endregion
+
         #region [ - DeleteAsync(Guid id) - ]
         public async Task DeleteAsync(Guid id)
         {
+            foreach (var item in await OrderDetailApplicationService.GetDetailsOfAnOrder(id))
+            {
+                await OrderDetailApplicationService.DeleteAsync(item.OrderHeaderId, item.ProductId);
+            }
             await OrderRepository.DeleteAsync(id);
         }
         // OrderRepository.DeleteAsync has another overload
@@ -83,7 +109,8 @@ namespace OnlineShopProject.Application.Services
         public async Task<List<OrderHeaderDTO>> GetListAsync()
         {
             var orders = await OrderRepository.Select();
-            return Mapper.Map<List<OrderHeaderDTO>>(orders);
+            var mappedOrders = Mapper.Map<List<Domain.Aggregates.OrderAggregate.OrderHeader>, List<OrderHeaderDTO>>(orders);
+            return mappedOrders;
         }
         #endregion
 
@@ -95,8 +122,6 @@ namespace OnlineShopProject.Application.Services
             {
                 order.Seller = await PersonRepository.FindByIdAsync(input.SellerId);
                 order.Buyer = await PersonRepository.FindByIdAsync(input.buyerId);
-                //order.OrderDetails.Clear();
-                //input.OrderDetails.ForEach(od => order.OrderDetails.Add(Mapper.Map<Domain.Aggregates.OrderAggregate.OrderDetail>(od)));
 
                 await OrderRepository.UpdateAsync(order);
             }

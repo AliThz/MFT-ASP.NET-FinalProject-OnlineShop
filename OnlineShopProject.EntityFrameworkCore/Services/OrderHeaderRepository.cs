@@ -27,10 +27,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
                 .Include(oh => oh.Seller)
                 .Include(oh => oh.Buyer)
                 .Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeader)
-                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeaderId)
                 .Include(oh => oh.OrderDetails).ThenInclude(od => od.Product)
-                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.ProductId)
-                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.Quantity)
                 //.AsNoTracking()
                 .ToListAsync();
 
@@ -45,10 +42,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
                 .Include(oh => oh.Seller)
                 .Include(oh => oh.Buyer)
                 .Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeader)
-                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeaderId)
                 .Include(oh => oh.OrderDetails).ThenInclude(od => od.Product)
-                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.ProductId)
-                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.Quantity)
                 //.AsNoTracking()
                 .SingleOrDefaultAsync(oh => oh.Id == id);
 

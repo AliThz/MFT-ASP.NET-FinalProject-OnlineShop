@@ -9,16 +9,18 @@ namespace OnlineShopProject.Application.DTOs.OrderDetailDTOs
 {
     public class CreateOrderDetailDTO /*: Contract.Base.DTOs.OrderDetailBaseDTO*/
     {
-        Guid OrderHeaderId { get; set; }
         [JsonIgnore]
-        OrderHeaderDTOs.OrderHeaderDTO OrderHeader { get; set; }
-
-        Guid ProductId { get; set; }
+        public Guid OrderHeaderId { get; set; }
         [JsonIgnore]
-        Contract.Abstracts.DTOs.IProductDTO Product { get; set; }
+        public OrderHeaderDTOs.OrderHeaderDTO OrderHeader { get; set; }
 
-        decimal Quantity { get; set; }
-        decimal Price { get { return Product.UnitPrice * Quantity; } }
+        public Guid ProductId { get; set; }
+        [JsonIgnore]
+        public Contract.Abstracts.DTOs.IProductDTO Product { get; set; }
+
+        public decimal Quantity { get; set; }
+        //[JsonIgnore]
+        //public decimal Price { get { return Product.UnitPrice * Quantity; } }
 
     }
 }
