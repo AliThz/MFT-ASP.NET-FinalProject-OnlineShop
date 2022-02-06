@@ -184,7 +184,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    SellerId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    SellerId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     BuyerId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
@@ -197,8 +197,8 @@ namespace OnlineShopProject.EntityFrameworkCore.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_OrderHeader_Person_SellerId",
-                        column: x => x.SellerId,
+                        name: "FK_OrderHeader_Person_SellerId1",
+                        column: x => x.SellerId1,
                         principalTable: "Person",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -279,9 +279,9 @@ namespace OnlineShopProject.EntityFrameworkCore.Migrations
                 column: "BuyerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderHeader_SellerId",
+                name: "IX_OrderHeader_SellerId1",
                 table: "OrderHeader",
-                column: "SellerId");
+                column: "SellerId1");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

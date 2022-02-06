@@ -25,7 +25,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #region [ - APIs - ]
 
         #region [ - GetProductAsync(Guid id) - ]
-        [Route("wapi/v2/1")]
+        [Route("wapi/GetProduct")]
         [HttpGet]
         public async Task<Application.DTOs.ProductDTOs.ProductDTO> GetProductAsync(Guid id)
         {
@@ -34,7 +34,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [ - GetListProductAsync() - ]
-        [Route("wapi/v2/2")]
+        [Route("wapi/GetProducts")]
         [HttpGet]
         public async Task<List<Application.DTOs.ProductDTOs.ProductDTO>> GetListProductAsync()
         {
@@ -43,7 +43,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [ - CreateProductAsync - ]
-        [Route("wapi/v2/3")]
+        [Route("wapi/CreateProduct")]
         [HttpPost]
         public async Task<Application.DTOs.ProductDTOs.ProductDTO> CreateProductAsync(Application.DTOs.ProductDTOs.CreateProductDTO input)
         {
@@ -52,7 +52,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [ - UpdateProductAsync - ]
-        [Route("wapi/v2/4")]
+        [Route("wapi/UpdateProduct")]
         [HttpPut]
         public async Task UpdateProductAsync(Guid id, Application.DTOs.ProductDTOs.UpdateProductDTO input)
         {
@@ -61,7 +61,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [- DeleteProductAsync -]
-        [Route("wapi/v2/5")]
+        [Route("wapi/DeleteProduct")]
         [HttpDelete]
         public async Task DeleteProductAsync(Guid id)
         {

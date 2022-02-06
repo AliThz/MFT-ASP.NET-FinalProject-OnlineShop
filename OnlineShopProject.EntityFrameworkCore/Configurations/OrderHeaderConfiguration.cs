@@ -14,7 +14,10 @@ namespace OnlineShopProject.EntityFrameworkCore.Configurations
         public void Configure(EntityTypeBuilder<OrderHeader> builder)
         {
             builder.ToTable("OrderHeader");
+            builder.Ignore(oh => oh.sellerId);
+            builder.Ignore(oh => oh.buyerId);
             builder.HasKey(o => o.Id);
+            //builder.Property("UnitPrice").HasColumnType("Money");
             //builder.Property(o => o.Seller).IsRequired();
             //builder.Property(o => o.Buyer).IsRequired();
         }

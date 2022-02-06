@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
@@ -23,13 +24,14 @@ namespace OnlineShopProject.Domain.Aggregates.OrderAggregate
         #endregion
 
         public PersonAggregate.Person Seller { get; set; }
-        [JsonIgnore]
-        public Guid SellerId { get; set; }
-
         public PersonAggregate.Person Buyer { get; set; }
-        [JsonIgnore]
+        public List<OrderDetail> OrderDetails { get; set; }
+
+        [NotMapped]
+        public Guid sellerId { get; set; }
+
+        [NotMapped]
         public Guid buyerId { get; set; }
 
-        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

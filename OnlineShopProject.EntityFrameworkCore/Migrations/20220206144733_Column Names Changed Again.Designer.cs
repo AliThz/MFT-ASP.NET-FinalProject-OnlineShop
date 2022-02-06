@@ -10,8 +10,8 @@ using OnlineShopProject.EntityFrameworkCore;
 namespace OnlineShopProject.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(OnlineShopProjectDbContext))]
-    [Migration("20220201040246_Initial Migration")]
-    partial class InitialMigration
+    [Migration("20220206144733_Column Names Changed Again")]
+    partial class ColumnNamesChangedAgain
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
