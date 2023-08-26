@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {}
+    "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {}
   },
   "projects": {
-    "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {
+    "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
         "projectName": "OnlineShopProject.Domain.Contract",
-        "projectPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\obj\\",
+        "projectPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
+        "packagesPath": "C:\\Users\\HMHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,16 +49,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
