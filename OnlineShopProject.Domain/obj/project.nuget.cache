@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "co9c2oFfqrtMzauLhS3t9O4ONfdv82MvKRUyRSfvsMODITzOrJWw4nllopPo0ZA+Pm+C68z+Hsld1fCp9WJY7w==",
+  "dgSpecHash": "9H17+iajwQx3e47kNpaIxKbXC+n7zQ3NyTrpxusHj2una1IjPjzGNQ5t/gmdCN4LxxBkxEeMuA3pQnt+GgucBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\5.0.0\\microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\tanvirarjel.extensions.microsoft.dependencyinjection\\2.0.0\\tanvirarjel.extensions.microsoft.dependencyinjection.2.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\tanvirarjel.extensions.microsoft.dependencyinjection\\2.2.0\\tanvirarjel.extensions.microsoft.dependencyinjection.2.2.0.nupkg.sha512",
     "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"

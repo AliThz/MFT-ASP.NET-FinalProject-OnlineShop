@@ -78,18 +78,18 @@
           }
         }
       },
-      "TanvirArjel.Extensions.Microsoft.DependencyInjection/2.0.0": {
+      "TanvirArjel.Extensions.Microsoft.DependencyInjection/2.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0"
         },
         "compile": {
-          "lib/net5.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll": {
+          "lib/netstandard2.1/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll": {
+          "lib/netstandard2.1/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll": {
             "related": ".xml"
           }
         }
@@ -211,22 +211,22 @@
         "version.txt"
       ]
     },
-    "TanvirArjel.Extensions.Microsoft.DependencyInjection/2.0.0": {
-      "sha512": "Xp7MkSk8RSmACBtR7KsF25aeK3UZqxRzNQFcniFTwJNr/R7rTUuB5j/ziydWgDdZqY/HzkEJI32j84NKFHSbpg==",
+    "TanvirArjel.Extensions.Microsoft.DependencyInjection/2.2.0": {
+      "sha512": "UDpEx59cJy2H7Ic1+nqimTbHfYOuKSNuP0V+SQhXOiZO3mDn0Vd63EMfviIBpx6jnyaLLKm2R8cprzdj2hMn6g==",
       "type": "package",
-      "path": "tanvirarjel.extensions.microsoft.dependencyinjection/2.0.0",
+      "path": "tanvirarjel.extensions.microsoft.dependencyinjection/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "icon.png",
-        "lib/net5.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll",
-        "lib/net5.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.xml",
-        "lib/netcoreapp3.1/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll",
-        "lib/netcoreapp3.1/TanvirArjel.Extensions.Microsoft.DependencyInjection.xml",
+        "lib/net6.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/net6.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.xml",
+        "lib/net7.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/net7.0/TanvirArjel.Extensions.Microsoft.DependencyInjection.xml",
         "lib/netstandard2.1/TanvirArjel.Extensions.Microsoft.DependencyInjection.dll",
         "lib/netstandard2.1/TanvirArjel.Extensions.Microsoft.DependencyInjection.xml",
-        "tanvirarjel.extensions.microsoft.dependencyinjection.2.0.0.nupkg.sha512",
+        "tanvirarjel.extensions.microsoft.dependencyinjection.2.2.0.nupkg.sha512",
         "tanvirarjel.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
@@ -239,7 +239,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "OnlineShopProject.Domain.Contract >= 1.0.0",
-      "TanvirArjel.Extensions.Microsoft.DependencyInjection >= 2.0.0"
+      "TanvirArjel.Extensions.Microsoft.DependencyInjection >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -292,7 +292,7 @@
         "dependencies": {
           "TanvirArjel.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.2.0, )"
           }
         },
         "imports": [
