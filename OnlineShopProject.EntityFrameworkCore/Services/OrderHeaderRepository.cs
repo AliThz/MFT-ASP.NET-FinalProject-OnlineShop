@@ -26,7 +26,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
             var orders = DbContext.OrderHeader
                 .Include(oh => oh.Seller)
                 .Include(oh => oh.Buyer)
-                .Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeader)
+                //.Include(oh => oh.OrderDetails).ThenInclude(od => od.OrderHeader)
                 .Include(oh => oh.OrderDetails).ThenInclude(od => od.Product)
                 //.AsNoTracking()
                 .ToListAsync();
@@ -43,6 +43,13 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
             //   .Select(oh => new OrderDetail
             //   {
             //       OrderHeaderId = oh.Id
+            //   }).ToListAsync();
+
+            //var result = DbContext.OrderDetail
+            //   .Select(od => new OrderHeader
+            //   {
+            //       Id = od.OrderHeaderId,
+            //       OrderDetails = od.OrderHeader.OrderDetails
             //   }).ToListAsync();
 
 
