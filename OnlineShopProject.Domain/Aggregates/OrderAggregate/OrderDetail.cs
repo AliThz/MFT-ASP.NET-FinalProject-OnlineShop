@@ -14,7 +14,12 @@ namespace OnlineShopProject.Domain.Aggregates.OrderAggregate
             OrderHeaderId = orderHeaderId;
             ProductId = productId;
             Quantity = quantity;
-        } 
+        }
+
+        public OrderDetail()
+        {
+                
+        }
         #endregion
 
         public Guid OrderHeaderId { get; set; }

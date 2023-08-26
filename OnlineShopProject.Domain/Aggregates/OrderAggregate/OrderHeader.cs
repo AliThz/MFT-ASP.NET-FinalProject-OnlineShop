@@ -32,6 +32,5 @@ namespace OnlineShopProject.Domain.Aggregates.OrderAggregate
 
         [NotMapped]
         public Guid buyerId { get; set; }
-
     }
 }

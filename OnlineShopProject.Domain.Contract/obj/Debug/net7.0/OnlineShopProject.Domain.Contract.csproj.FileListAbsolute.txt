@@ -1,0 +1,11 @@
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.deps.json
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\OnlineShopProject.Domain.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\OnlineShopProject.Domain.Contract.AssemblyInfoInputs.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\OnlineShopProject.Domain.Contract.AssemblyInfo.cs
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\OnlineShopProject.Domain.Contract.csproj.CoreCompileInputs.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\OnlineShopProject.Domain.Contract.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\refint\OnlineShopProject.Domain.Contract.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\OnlineShopProject.Domain.Contract.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain.Contract\obj\Debug\net7.0\ref\OnlineShopProject.Domain.Contract.dll

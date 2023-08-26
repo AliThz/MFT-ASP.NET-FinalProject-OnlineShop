@@ -1,0 +1,15 @@
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\bin\Debug\net7.0\OnlineShopProject.Domain.deps.json
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\bin\Debug\net7.0\OnlineShopProject.Domain.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\bin\Debug\net7.0\OnlineShopProject.Domain.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.csproj.AssemblyReference.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.AssemblyInfoInputs.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.AssemblyInfo.cs
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.csproj.CopyComplete
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\refint\OnlineShopProject.Domain.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\OnlineShopProject.Domain.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.Domain\obj\Debug\net7.0\ref\OnlineShopProject.Domain.dll

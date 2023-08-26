@@ -1,18 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "9H17+iajwQx3e47kNpaIxKbXC+n7zQ3NyTrpxusHj2una1IjPjzGNQ5t/gmdCN4LxxBkxEeMuA3pQnt+GgucBg==",
+  "dgSpecHash": "0BVG4Qm7QpL5c0NFFNGs06Qd+72UhzGnOghM/t096TqEOKx48+Ya5FdNcmC0Q4mcLOcZ4zL6LXZC+rqT+k1uYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\5.0.0\\microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\tanvirarjel.extensions.microsoft.dependencyinjection\\2.2.0\\tanvirarjel.extensions.microsoft.dependencyinjection.2.2.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\tanvirarjel.extensions.microsoft.dependencyinjection\\2.2.0\\tanvirarjel.extensions.microsoft.dependencyinjection.2.2.0.nupkg.sha512"
   ],
   "logs": []
 }

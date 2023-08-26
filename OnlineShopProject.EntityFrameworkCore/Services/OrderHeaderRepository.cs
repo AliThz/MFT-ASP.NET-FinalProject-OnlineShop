@@ -31,6 +31,21 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
                 //.AsNoTracking()
                 .ToListAsync();
 
+            //var result = DbContext.OrderHeader
+            //   .Select(oh => new OrderDetail
+            //   {
+            //       OrderHeaderId = oh.Id,
+            //       details = oh.OrderDetails.ToList()  // this will be the ICollection of Details table
+            //   }).ToList();
+
+
+            //var result = DbContext.OrderHeader
+            //   .Select(oh => new OrderDetail
+            //   {
+            //       OrderHeaderId = oh.Id
+            //   }).ToListAsync();
+
+
             return await orders;
         }
         #endregion

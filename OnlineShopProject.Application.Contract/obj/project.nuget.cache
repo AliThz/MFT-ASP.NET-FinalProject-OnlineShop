@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GYxYfVulz6VvenO8nrymeyOFvBUZV7F4Z3DRTFWTZapSsLREIEaDIXTRVqHh86MSxYiLhOu4shHI6l8BADoEhg==",
+  "dgSpecHash": "oU8j7SaHfH3k9onBARfdXXu5MObdLu4tTcYL3lOAS4992+3vjCZnilqHGtefPOHsUVLPhe/2PWbbKXdmS6oJ6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Application.Contract\\OnlineShopProject.Application.Contract.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
