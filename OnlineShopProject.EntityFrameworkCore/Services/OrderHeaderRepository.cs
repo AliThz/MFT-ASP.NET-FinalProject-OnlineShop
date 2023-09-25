@@ -21,7 +21,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Services
         #region [ - Methods - ]
 
         #region [ - Select() - ]
-        public override async Task<List<OrderHeader>> Select()
+        public override async Task<List<OrderHeader>> SelectAsync()
         {
             var orders = DbContext.OrderHeader
                 .Include(oh => oh.Seller)

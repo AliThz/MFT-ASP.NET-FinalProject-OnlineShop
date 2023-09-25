@@ -38,7 +38,7 @@ namespace OnlineShopProject.Application.Services
         #region [ - GetListAsync() - ]
         public async Task<List<ProductDTO>> GetListAsync()
         {
-            var products = await ProductRepository.Select();
+            var products = await ProductRepository.SelectAsync();
             return Mapper.Map<List<ProductDTO>>(products);
         }
         #endregion

@@ -70,7 +70,7 @@ namespace OnlineShopProject.EntityFrameworkCore.Frameworks.Base
         #endregion
 
         #region [ - Select() - ]
-        public virtual async Task<List<T_Entity>> Select()
+        public virtual async Task<List<T_Entity>> SelectAsync()
         {
             var entityList = DbSet.AsNoTracking().ToListAsync();
             return await entityList;

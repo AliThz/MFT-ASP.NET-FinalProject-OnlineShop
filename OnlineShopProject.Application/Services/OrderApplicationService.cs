@@ -108,7 +108,7 @@ namespace OnlineShopProject.Application.Services
         #region [ - GetListAsync() - ]
         public async Task<List<OrderHeaderDTO>> GetListAsync()
         {
-            var orders = await OrderRepository.Select();
+            var orders = await OrderRepository.SelectAsync();
             var mappedOrders = Mapper.Map<List<Domain.Aggregates.OrderAggregate.OrderHeader>, List<OrderHeaderDTO>>(orders);
             return mappedOrders;
         }
