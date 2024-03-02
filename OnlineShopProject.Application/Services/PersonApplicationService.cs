@@ -68,7 +68,7 @@ namespace OnlineShopProject.Application.Services
         #region [ - GetListAsync() - ]
         public async Task<List<PersonDTO>> GetListAsync()
         {
-            var people = await PersonRepository.Select();
+            var people = await PersonRepository.SelectAsync();
             return Mapper.Map<List<PersonDTO>>(people);
         }
         #endregion

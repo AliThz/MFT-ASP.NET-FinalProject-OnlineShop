@@ -1,35 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj": {}
+    "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj": {}
   },
   "projects": {
-    "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {
+    "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
         "projectName": "OnlineShopProject.Domain.Contract",
-        "projectPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\obj\\",
+        "projectPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj",
+        "packagesPath": "C:\\Users\\HMHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -40,15 +41,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,39 +59,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj": {
+    "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj",
         "projectName": "OnlineShopProject.Domain",
-        "projectPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain\\obj\\",
+        "projectPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\HMHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {
-                "projectPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj"
+              "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj": {
+                "projectPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain.Contract\\OnlineShopProject.Domain.Contract.csproj"
               }
             }
           }
@@ -101,12 +104,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "TanvirArjel.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -115,7 +118,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -124,39 +128,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj": {
+    "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj",
+        "projectUniqueName": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj",
         "projectName": "OnlineShopProject.EntityFrameworkCore",
-        "projectPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.EntityFrameworkCore\\obj\\",
+        "projectPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.EntityFrameworkCore\\OnlineShopProject.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\HMHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj": {
-                "projectPath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj"
+              "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Domain\\OnlineShopProject.Domain.csproj"
               }
             }
           }
@@ -168,16 +173,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[7.0.10, )"
             }
           },
           "imports": [
@@ -186,7 +191,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -195,7 +201,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

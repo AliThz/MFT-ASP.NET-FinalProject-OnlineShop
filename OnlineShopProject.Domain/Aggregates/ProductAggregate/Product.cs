@@ -21,6 +21,6 @@ namespace OnlineShopProject.Domain.Aggregates.ProductAggregate
         public decimal UnitPrice { get; set; }
         public decimal Quantity { get; set; }
 
-        //public List<OrderAggregate.OrderDetail> OrderDetails { get; set; }
+        public List<OrderAggregate.OrderDetail> OrderDetails { get; set; }
     }
 }

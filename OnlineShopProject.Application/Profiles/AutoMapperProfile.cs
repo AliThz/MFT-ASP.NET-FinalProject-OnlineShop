@@ -19,6 +19,11 @@ namespace OnlineShopProject.Application.Profiles
             #region [ - ProductFlow - ]
             CreateMap<Domain.Aggregates.ProductAggregate.Product, DTOs.ProductDTOs.ProductDTO>().ReverseMap();
             #endregion
+
+            #region [ - OrderFlow - ]
+            CreateMap<Domain.Aggregates.OrderAggregate.OrderHeader, DTOs.OrderHeaderDTOs.OrderHeaderDTO>().ReverseMap();
+            CreateMap<Domain.Aggregates.OrderAggregate.OrderDetail, DTOs.OrderDetailDTOs.OrderDetailDTO>().ReverseMap();
+            #endregion
         }
         #endregion
     }

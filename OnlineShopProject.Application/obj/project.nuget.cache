@@ -1,20 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "xpncJ9HpgSZOAPgKUsNaneUyeYDLbJLQYGsT+j6szwdH0MAG3czknlnB5XXBM3TrBUQ3qGfpgrKEHa9tdmbB1w==",
+  "dgSpecHash": "kRxV6RaJ36Nr6TPqQ8qstlhG9x1duEKxilfywWFwfTrSZG1ROZWNMluTVMNiVVWzhS22iGWI1dgpfXk30y3L2Q==",
   "success": true,
-  "projectFilePath": "E:\\Ali\\Programming\\ASP.net\\MFT\\Projects\\FinalProject\\OnlineShop\\OnlineShopProject.Application\\OnlineShopProject.Application.csproj",
+  "projectFilePath": "C:\\Users\\HMHA\\Source\\Repos\\mft_onlineshop\\OnlineShopProject.Application\\OnlineShopProject.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\5.0.0\\microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\tanvirarjel.extensions.microsoft.dependencyinjection\\2.0.0\\tanvirarjel.extensions.microsoft.dependencyinjection.2.0.0.nupkg.sha512"
+    "C:\\Users\\HMHA\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\HMHA\\.nuget\\packages\\tanvirarjel.extensions.microsoft.dependencyinjection\\2.2.0\\tanvirarjel.extensions.microsoft.dependencyinjection.2.2.0.nupkg.sha512"
   ],
   "logs": []
 }

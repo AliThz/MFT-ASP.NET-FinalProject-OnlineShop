@@ -22,10 +22,10 @@ namespace OnlineShopProject.WebApi.Controllers
         public Application.Abstracts.IPersonApplicationService PersonApplicationService { get; set; }
         #endregion
 
-        #region [ - Actions - ]
+        #region [ - APIs - ]
 
         #region [ - GetPersonAsync(Guid id) - ]
-        [Route("wapi/v1/1")]
+        [Route("wapi/GetPerson")]
         [HttpGet]
         public async Task<Application.DTOs.PersonDTOs.PersonDTO> GetPersonAsync(Guid id)
         {
@@ -34,7 +34,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [ - GetListPersonAsync() - ]
-        [Route("wapi/v1/2")]
+        [Route("wapi/GetPeople")]
         [HttpGet]
         public async Task<List<Application.DTOs.PersonDTOs.PersonDTO>> GetListPersonAsync()
         {
@@ -43,7 +43,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [ - CreatePersonAsync - ]
-        [Route("wapi/v1/3")]
+        [Route("wapi/CreatePerson")]
         [HttpPost]
         public async Task<Application.DTOs.PersonDTOs.PersonDTO> CreatePersonAsync(Application.DTOs.PersonDTOs.CreatePersonDTO input)
         {
@@ -52,7 +52,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [ - UpdatePersonAsync - ]
-        [Route("wapi/v1/4")]
+        [Route("wapi/UpdatePerson")]
         [HttpPut]
         public async Task UpdatePersonAsync(Guid id, Application.DTOs.PersonDTOs.UpdatePersonDTO input)
         {
@@ -61,7 +61,7 @@ namespace OnlineShopProject.WebApi.Controllers
         #endregion
 
         #region [- DeletePersonAsync -]
-        [Route("wapi/v1/5")]
+        [Route("wapi/DeletePerson")]
         [HttpDelete]
         public async Task DeletePersonAsync(Guid id)
         {

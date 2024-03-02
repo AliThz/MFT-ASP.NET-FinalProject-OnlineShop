@@ -12,7 +12,7 @@ namespace OnlineShopProject.Domain.Contract.Abstracts
         Task UpdateAsync(T_Entity entity);
         Task DeleteAsync(U_PrimaryKey id);
         Task DeleteAsync(T_Entity entity);
-        Task<List<T_Entity>> Select();
+        Task<List<T_Entity>> SelectAsync();
         Task<T_Entity> FindByIdAsync(U_PrimaryKey id);
         Task SaveChanges();
     }

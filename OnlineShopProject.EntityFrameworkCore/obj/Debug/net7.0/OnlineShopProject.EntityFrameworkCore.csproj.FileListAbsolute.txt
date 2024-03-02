@@ -1,0 +1,17 @@
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.deps.json
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.Domain.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.Domain.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\bin\Debug\net7.0\OnlineShopProject.Domain.Contract.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.csproj.AssemblyReference.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\refint\OnlineShopProject.EntityFrameworkCore.dll
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\OnlineShopProject.EntityFrameworkCore.pdb
+C:\Users\HMHA\Source\Repos\mft_onlineshop\OnlineShopProject.EntityFrameworkCore\obj\Debug\net7.0\ref\OnlineShopProject.EntityFrameworkCore.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "OnlineShopProject.Domain.Contract/1.0.0": {
+        "runtime": {
+          "OnlineShopProject.Domain.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineShopProject.Domain.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
